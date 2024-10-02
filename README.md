@@ -235,5 +235,8 @@ Both tables are loaded fully in destination DB
 ![image](https://github.com/user-attachments/assets/6e321bbb-6647-475b-9ea6-c5fc2c960993)
 
 
+You can see list resources used for this live DB migration activities
+
+![image](https://github.com/user-attachments/assets/9143d006-f846-4f71-ba3c-68d560892e0d)
 
 
