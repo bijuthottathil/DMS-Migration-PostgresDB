@@ -37,9 +37,9 @@ sudo usermod -aG sudo postgres
 
 Now we are ready with source postgres db in ubuntu
 
-Next we will create postgres DB in Azure portal as destination DB
+Now, enter the following command to into the PostgreSQL shell:
 
-
+psql
 
 
 ![image](https://github.com/user-attachments/assets/464e8780-55ba-4c6a-ba31-a4771e3dd9c3)
