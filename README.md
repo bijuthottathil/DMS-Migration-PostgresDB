@@ -3,16 +3,20 @@
 
 ![image](https://github.com/user-attachments/assets/cc6cea82-0103-4bc1-a63f-13d340af38b3)
 
-Intent is to migrate postgres DB Version 12 installed in AWS Ubuntu System to Azure Postgres DB Managed 
+Intent is to migrate postgres DB Version 12 installed in  Ubuntu System to Azure Postgres DB  
 
 1 st step, we need to install Postgres 12 in Ubuntu
 
 ![image](https://github.com/user-attachments/assets/bc8b1abf-3241-4e6f-8d9c-3911922d2459)
 
-Install postgres 12 using below steps
+
+
 Installing PostgreSQL 12 on Ubuntu
+
 Run the following command to create the file repository configuration:
 
+
+sudo usermod -aG sudo postgres
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 Import the repository signing key by running the following command
 
@@ -27,6 +31,9 @@ sudo apt -y install postgresql-12
 
 ![image](https://github.com/user-attachments/assets/1c13d090-4355-44eb-9672-0721b0f65c47)
 
+Add Postgres User to SUDO Group
+
+sudo usermod -aG sudo postgres
 
 Now we are ready with source postgres db in ubuntu
 
