@@ -1,4 +1,7 @@
-# DBMigrate-new
+
+
+
+![image](https://github.com/user-attachments/assets/cc6cea82-0103-4bc1-a63f-13d340af38b3)
 
 Intent is to migrate postgres DB Version 12 installed in AWS Ubuntu System to Azure Postgres DB Managed 
 
